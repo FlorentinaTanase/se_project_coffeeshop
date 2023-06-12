@@ -291,8 +291,7 @@
   display: flex;
   max-width: 385px;
   height: 60px;
-  text-align: space-around;
-
+  text-align: justify;
   border-color: #838383;
   border-radius: 1px;
   font-style: normal;
