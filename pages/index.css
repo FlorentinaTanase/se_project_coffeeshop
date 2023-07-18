@@ -330,7 +330,7 @@
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-boxing;
+  box-sizing: border-box;
   padding: 0;
 }
 .form__checkbox {
