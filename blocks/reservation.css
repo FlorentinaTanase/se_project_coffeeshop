@@ -1,9 +1,12 @@
 .reservation {
+/*--- NEEDS CORRECTING. It's necessary to specify bottom padding, according to the brief. */
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 720px;
+/*--- NEEDS CORRECTING. Please remove this style, it's not needed for this element, according to the brief */
   max-height: 800px;
+/*--- NEEDS CORRECTING. Please remove this style, it's not needed for this element, according to the brief */
   width: 100%;
   margin: 0;
   background-color: #d9e7ff;
@@ -13,9 +16,11 @@
   background-size: cover;
   box-sizing: border-box;
   overflow: scroll;
+/*--- NEEDS CORRECTING. Please remove this style, it's not needed for this element, according to the brief */
 }
 
 .reservation__title {
+/*--- NEEDS CORRECTING. Please specify `font-size`, `line-height` and `font-weight` properties for this element */
   display: flex;
   justify-content: center;
   flex-direction: column;

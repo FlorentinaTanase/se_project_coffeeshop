@@ -32,6 +32,13 @@
 }
 
 .form__input {
+/*--- NEEDS CORRECTING. 1) Please change the default color of the border to the value from the brief (#838383).
+You can use 1px as a border-width and solid as a border-style.
+Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/border#syntax
+
+2) Use `box-sizing: border-box` property here.
+`border-box` tells the browser to account for any border and padding in the values you specify 
+for an element's width and height. */
   display: flex;
   max-width: 385px;
   height: 60px;

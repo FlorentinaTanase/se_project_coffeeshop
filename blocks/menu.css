@@ -1,6 +1,9 @@
 .menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   box-sizing: border-box;
   background-image: url(../images/background_menu.svg);
   width: 100%;
@@ -14,8 +17,8 @@
 
 .menu__title {
   display: flex;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", "Ariel", sans-serif;
+
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -27,20 +30,19 @@
 
 .menu__subtitle {
   display: flex;
+  justify-content: center;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  flex-direction: column;
   text-align: center;
   padding-bottom: 100px;
   margin: 0;
+  max-width: 780px;
 }
 
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }

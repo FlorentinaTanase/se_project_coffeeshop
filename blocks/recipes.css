@@ -1,6 +1,8 @@
 .recipes {
   min-height: 720px;
+/*--- NEEDS CORRECTING. Please remove this style, it's not needed for this element, according to the brief */
   max-height: 800px;
+/*--- NEEDS CORRECTING. Please remove this style, it's not needed for this element, according to the brief */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,6 +67,8 @@
 }
 
 .recipes__video-caption {
+/*--- NEEDS CORRECTING. The text element still has the default bottom margin. It also needs to be reset.
+General explanation of resetting default margins: https://vimeo.com/810567714 */
   display: flex;
   justify-content: space-between;
   font-weight: 500;
