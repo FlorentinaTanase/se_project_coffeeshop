@@ -1,8 +1,11 @@
 @import url(../vendor/index.css);
+/*--- NEEDS CORRECTING. `normalize.css` should be imported into `index.css` before other CSS files.
+Please import `normalize.css` instead of duplicated `index.css` */
 @import url(../pages/index.css);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/logo.css);
+/*--- NEEDS CORRECTING. Please remove this unnecessary empty CSS-file. */
 @import url(../blocks/nav.css);
 @import url(../blocks/recipes.css);
 @import url(../blocks/reservation.css);

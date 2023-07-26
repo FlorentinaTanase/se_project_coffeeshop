@@ -2,11 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 540px;
-  font-family: "Inter" "Ariel", sans-serif;
-
   font-size: 20px;
   line-height: 52px;
-  padding-bottom: 100px;
 }
 
 .card__title {
@@ -19,9 +16,6 @@
 
 .card__list-container {
   font-family: "Noto Serif", "Times New Roman", serif;
-
-  font-size: 16px;
-  line-height: 20px;
   padding: 0;
   margin: 0;
 }
@@ -29,20 +23,11 @@
 .card__list-item {
   display: flex;
   flex-direction: row;
-
   padding-bottom: 16px;
 }
 
 .card__list-item:last-of-type {
   padding-bottom: 0;
-}
-
-.card__list-item-name {
-  display: flex;
-
-  padding: 0;
-  margin: 0;
-  flex: 1;
 }
 
 .card__list-divider {
@@ -54,11 +39,4 @@
   height: 0px;
   flex-grow: 1;
   margin: 0 10px;
-}
-.card__list-item-price {
-  display: flex;
-  justify-content: flex-end;
-  flex-grow: 0.5;
-  text-align: right;
-  margin: 0;
 }
