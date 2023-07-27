@@ -59,16 +59,9 @@
   opacity: 0.7;
 }
 
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
 .form__checkbox {
+  width: 20px;
+  height: 2opx;
   margin-right: 12px;
   border-radius: 2px;
-}
-
-.form__checkbox:checked {
-  margin-right: 12px;
 }
